@@ -3,7 +3,6 @@
 from typing import Union, Tuple
 
 
-def to_kv(k: str, v: Union[int, float]) -> Tuple[str, Union[int, float]]:
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """returns the type annotated values"""
-    square_val = v * v
-    return (k, square_val)
+    return (k, v*v)
