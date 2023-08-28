@@ -5,4 +5,5 @@ from typing import Union, Tuple
 
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, Union[int, float]]:
     """returns the type annotated values"""
-    return k, v
+    square_val = v * v
+    return (k, square_val)
