@@ -1,0 +1,2 @@
+//Script that shows entries in a collection
+db.school.find()
