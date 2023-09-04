@@ -1,0 +1,1 @@
+This folder is about the learning of the NOSQL databases and how they differentiate from regular SQL dbs
