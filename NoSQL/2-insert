@@ -1,2 +1,2 @@
-// add a document within a collection
-db.collection.insertOne("name",{writeConcern: "HolbertonSchool"})
+//Script that inserts a document in the collection school
+db.school.insert ({"name": "Holberton school"})
