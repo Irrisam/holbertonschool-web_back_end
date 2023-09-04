@@ -1,0 +1,2 @@
+// add a document within a collection
+db.collection.insertOne("name",{writeConcern: "HolbertonSchool"})
