@@ -1,2 +1,2 @@
 // Script that searches for entries where name is Holberton School
-db.schools.find({ "name": "Holberton School" })
+db.school.find({"name":"Holberton School"})
