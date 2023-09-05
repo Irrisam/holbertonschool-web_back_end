@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
+"""adds multiple docs a collection inputed"""
 
 from pymongo import MongoClient
-"""adds multiple docs a collection inputed"""
 
 
 def insert_school(mongo_collection, **kwargs):
