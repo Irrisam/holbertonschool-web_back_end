@@ -1,0 +1,2 @@
+// Deletes all entries in the school
+db.school.deleteMany({})
