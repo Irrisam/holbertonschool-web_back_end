@@ -1,2 +1,2 @@
-// Deletes all entries in the school
-db.school.deleteMany({})
+// Deletes all entries in the school where name is Holberton School
+db.school.deleteMany({"name": "Holberton school"})
