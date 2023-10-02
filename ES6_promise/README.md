@@ -1,0 +1,1 @@
+This project is about promises with nodeJS
