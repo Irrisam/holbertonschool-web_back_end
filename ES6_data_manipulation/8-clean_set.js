@@ -6,7 +6,6 @@ export default function cleanSet(paramSet, startString) {
         if (item.startsWith(startString)){
         const withoutStart = item.substring(startString.length);
         returnString.push(withoutStart.split('-').join(''));
-        returnString.toString();
     }
 }
 }
